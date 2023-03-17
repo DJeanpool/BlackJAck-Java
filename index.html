@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>BlackJack</title>
+</head>
+<body>
+
+    <header class="titulo">
+        BlackJack
+    </header>
+    <div class="row mt-2">
+        <div class="col text-center">
+
+            <button id="btn-nueva" class="danger"> Nueva partida </button>
+            <button id="btn-pedir" class="primary"> Pedir otra    </button>
+            <button id="btn-detener" class="primary"> Detenerse     </button>
+
+        </div>
+    </div>
+    
+    <div class="row container">
+        <div class="col">
+
+            <h1> Judador  Puntaje: <Small id="puntosJ"> 0</Small> </h1>
+            <div id="jugador-cartas">
+                <!-- <img class="carta" src="assets/cartas/10C.png"> -->
+            </div>
+
+            <h1> Computadora  Puntaje: <Small id="puntosC"> 0</small> </h1>
+            <div id="computadora">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/blackJack.js"></script>
+
+</body>
+</html>
